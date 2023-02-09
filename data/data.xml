@@ -1,0 +1,6 @@
+<odoo noupdate="1">
+    <record id="testcourse" model="openacademy">
+        <field name="name">Test Course</field>
+        <field name="description">Testing from data file</field>
+    </record>
+</odoo>

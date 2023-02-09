@@ -1,0 +1,14 @@
+<odoo>
+    <menuitem id="course_menu" name="Course"/>
+
+    <record id="openacademy_course_action" model="ir.actions.act_window">
+        <field name="name">openacademy_course_action</field>
+        <field name="res_model">openacademy.course</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+    <menuitem id="openacademy_course"
+              name="Course List"
+              parent="course_menu"
+              action="openacademy_course_action"/>
+</odoo>
